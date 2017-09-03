@@ -8,7 +8,7 @@
 | Firefox   | QQ-Browser    |	Android		|
 | Safari	|  WeChat      |	Mac		|
 | Ie11      | WeiBo 		|	Windows	|
-| Ie(6-10)  |      			 |		|
+| Ie(6-10)  |  UC-Browser   	 |		|
 | Opera	 	|				 |			|
 | Edge      |	 			|
 
