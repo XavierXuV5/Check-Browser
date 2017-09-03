@@ -1,2 +1,6 @@
 # Check-Browser
-check whether it is Desktop Browser(Chrome  FF and ....) and Mobile Browser
+
+
+最近有个需求:判断浏览的入口，最常用的是判断微信端和QQ端还有微博端的内置浏览器。后来觉得反正都写了手机端的，要不就来个总和吧，把各大浏览器都判断一次，方便日后使用。  
+
+
