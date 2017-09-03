@@ -48,7 +48,7 @@ class checkBrowser {
     }
 }
 ````
-## 添加isIe方法 
+## 判断各个IE版本方法 
 
 &emsp;&emsp;判断各个版本的IE浏览器  
 ```JavaScript
@@ -70,14 +70,13 @@ class checkBrowser {
             } else if (fIEVersion == 10) {
                 document.writeln("IE版本:"+10+'<br>');
             } else {
-                document.writeln("IE版本:"+6+'<br>');//IE版本<=7
+                document.writeln("IE版本:"+6+'<br>');
             }
-        }else {
-
         }
     }
 ```
 
+## 判断浏览器
 
 
 
