@@ -7,5 +7,3 @@
 
 ```JavaScript
 navigator.userAgent;
-
-
