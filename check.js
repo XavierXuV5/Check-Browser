@@ -86,7 +86,7 @@ class checkBrowser {
                 fun(oEntry,'AndroidWeChat');
             }else if(this.WinWeChat ){
                 alert('电脑微信端');
-            }else {
+            }else if(this.Android) {
                 fun(oEntry,'AndroidQQBrowser');
             }
         }else if(this.Android && this.QQ){
