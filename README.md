@@ -155,6 +155,19 @@ class checkBrowser {
         }
     }
 ```
+## 测试截图
+#### 安卓QQ
+![Android-QQ](./img/Android-QQ.png)
+#### 安卓QQ浏览器
+![Android-QQBrowser](./img/Android-QQBrowser.png)
+#### 安卓微信
+![Android-WeChat](./img/Android-WeChat.png)
+#### iPhoneQQ
+![iPhone-QQ](./img/iPhone-QQ.PNG)
+#### iPhone微信
+![iPhone-QQ](./img/iPhone-WeChat.PNG)
+
+
 
 
 
