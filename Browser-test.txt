@@ -1,0 +1,99 @@
+
+>>>>>>>PC：
+
+safari :	
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+
+chrome :
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
+
+firefox:
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:55.0) Gecko/20100101 Firefox/55.0 
+
+Edge:
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063
+
+IE11:
+Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3; rv:11.0) like Gecko 
+
+
+IE:10
+Mozilla/5.0(compatible;MSIE 10.0;Windows NT6.2;Trident/6.0)
+
+IE:9
+Mozilla/5.0(compatible;MSIE 9.0;Windows NT6.1;Trident/5.0)
+
+IE:8
+Mozilla/4.0(compatible;MSIE 8.0;Windows NT6.1;Trident/4.0)
+
+IE:7
+Mozilla/4.0(compatible;MSIE 7.0;Windows NT6.0)
+
+IE:6
+Mozilla/5.0(compatible;MSIE 6.0;Windows NT5.1)
+
+
+
+>>>>>>>Moblie：
+
+
+Android:
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Mobile Safari/537.36
+
+iPhone:
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.38 (KHTML, like Gecko) Version/10.0 Mobile/14A300 Safari/602.1
+
+ipad:
+Mozilla/5.0 (iPad; CPU OS 10_0 like Mac OS X) AppleWebKit/602.1.38 (KHTML, like Gecko) Version/10.0 Mobile/14A300 Safari/602.1
+
+
+
+机型: >>夏普 306SH 安卓4.4
+
+QQ浏览器:
+Mozilla/5.0 (Linux;U;Android x.x; 型号 Build/S7232) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 MQQBrowser/7.8  Mobile Safari/537.36
+
+
+UC浏览器:
+Mozilla/5.0 (Linux;U;Android x.x; 型号 Build/S7232) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.6.6951 Mobile Safari/537.36
+
+
+夸克浏览器:
+Mozilla/5.0 (Linux;U;Android x.x; 型号 Build/S7232) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 Quark/2.0.4.956 Mobile Safari/537.36
+
+
+微博浏览器:
+Mozilla/5.0 (Linux;Android x.x; 型号 Build/S7232) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0  Mobile Safari/537.36 Weibo(SHARP-型号-微博版本-安卓版本);
+
+
+机型: >>iphone 5s ios9.2
+
+
+iphone 5s ios9.2 : 》wechat
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D15 MicroMessenger/6.5.14 NetType/WIFI Language/zh_CN
+
+
+iPhone 5s ios9.2 : 》QQ
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D15 QQ/7.1.8.452 V1_IPH_SQ_7.1.8_1_APP_A Pixel/640 Core/UIWebView NetType/WIFI QBWebViewType/1
+
+
+
+机型: >>xiao mi 5 安卓7.0
+
+Xiao MI5: wechat
+Mozilla/5.0 (Linux; Android 7.0; MI 5 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043505 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN
+
+
+Xiao MI5: QQ
+Mozilla/5.0 (Linux; Android 7.0; MI 5 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043505 Safari/537.36 V1_AND_SQ_7.1.8_718_YYB_D QQ/7.1.8.3240 NetType/WIFI WebP/0.3.0 Pixel/1080
+
+
+
+
+
+
+
+
+
+
+
