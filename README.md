@@ -7,4 +7,5 @@
 
 ```JavaScript
 navigator.userAgent;  
-&emsp;&emsp;主要是从浏览器返回的信息来判断
+```
+&emsp;&emsp;主要是从浏览器返回的信息来判断,详细的请看我的测试结果 [测试](./Browser-test.txt)
