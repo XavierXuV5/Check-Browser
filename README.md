@@ -48,6 +48,35 @@ class checkBrowser {
     }
 }
 ````
+## 添加isIe方法 
+
+&emsp;&emsp;判断各个版本的IE浏览器  
+```JavaScript
+    isIe(){
+        if(this.IE){
+            var reIE=new RegExp('MSIE (\\d+\\.\\d+);');
+            reIE.test(this.userAgent);
+            var IE_version=parseFloat(["$1"]);
+
+            var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+            reIE.test(this.userAgent);
+            var fIEVersion = parseFloat(RegExp["$1"]);
+            if (fIEVersion == 7) {
+                document.writeln("IE版本:"+7+'<br>');
+            } else if (fIEVersion == 8) {
+                document.writeln("IE版本:"+8+'<br>');
+            } else if (fIEVersion == 9) {
+                document.writeln("IE版本:"+9+'<br>');
+            } else if (fIEVersion == 10) {
+                document.writeln("IE版本:"+10+'<br>');
+            } else {
+                document.writeln("IE版本:"+6+'<br>');//IE版本<=7
+            }
+        }else {
+
+        }
+    }
+```
 
 
 
