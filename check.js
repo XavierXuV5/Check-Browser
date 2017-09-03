@@ -29,6 +29,7 @@ class checkBrowser {
         this.UCBrowser=!!this.userAgent.match(/UCBrowser/i);
         this.QQ=!!this.userAgent.match(/QQ/i);
         this.QQBrowser=!this.userAgent.indexOf('MQQBrowser') > -1 && this.userAgent.indexOf('QQ/');
+        this.WinWeChat=!!this.userAgent.match(/WindowsWeChat/i);
     }
 
     isOS() {
@@ -83,7 +84,9 @@ class checkBrowser {
         if(this.Wechat || this.Android && this.QQBrowser=='-1' && this.QQ){ // 判断安卓 QQ内置 或者 QQ浏览器   微信X5内核
             if(this.Wechat && this.Android){
                 fun(oEntry,'AndroidWeChat');
-            }else if(this.Android || this.QQ){
+            }else if(this.WinWeChat ){
+                alert('电脑微信端');
+            }else {
                 fun(oEntry,'AndroidQQBrowser');
             }
         }else if(this.Android && this.QQ){
