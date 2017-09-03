@@ -6,9 +6,9 @@
 | ----------|:-------------:|:----------:|
 | Chrome    | QQ 			|  Ios			|          
 | Firefox   | QQ-Browser    |	Android		|
-| Safari	|  WeChat      |	Mac OS		|
+| Safari	|  UC-Browser      |	Mac OS		|
 | Ie11      | WeiBo 		|	Windows	|
-| Ie(6-10)  |  UC-Browser   	 |		|
+| Ie(6-10)  |   WeChat	|		|
 | Opera	 	|				 |			|
 | Edge      |	 			|
 
@@ -23,6 +23,8 @@ navigator.userAgent;
 # 思路
 
 &emsp;&emsp;首先，我用我要把各种要判断的浏览器的 __navigator.userAgent__ 拿到，再分析返回的字符串，写一个class把属性给存起来。
+这里用到的主要是[indexOf](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)和[match](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Symbol/match)这两个知识点。然后再处理一下逻辑，就可以判断了，难点就在于处理这些逻辑，需要注意的是Safari和Chrome ,IE11和IE(6-10)。前者是大致相同(同基于Webkit)，后者是天差地别(夸张了)。
+
 ```JavaScript
 class checkBrowser {
     constructor() {
