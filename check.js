@@ -29,7 +29,7 @@ class checkBrowser {
         this.UCBrowser=!!this.userAgent.match(/UCBrowser/i);
         this.QQ=!!this.userAgent.match(/QQ/i);
         this.QQBrowser=!this.userAgent.indexOf('MQQBrowser') > -1 && this.userAgent.indexOf('QQ/');
-        this.WinWeChat=!!this.userAgent.match(/WindowsWeChat/i);
+        this.WinWeChat=!!this.userAgent.match(/WindowsWeChat/i); // PC微信端
     }
 
     isOS() {
