@@ -76,7 +76,86 @@ class checkBrowser {
     }
 ```
 
-## 判断浏览器
+## 判断浏览器  
+```JavaScript
+    isEntry() { // 浏览器入口
+        if (this.Chrome) {
+            fun(oEntry, 'Chrome');
+        }
+        if(this.FireFox){
+            fun(oEntry, 'FireFox');
+        }
+        if(this.Safari){
+            fun(oEntry, 'Safari');
+        }
+        if(this.IE11){
+            fun(oEntry, 'Ie11');
+        }
+        if(this.IE){
+            fun(oEntry,'Ie')
+        }
+        if(this.Edge){
+            fun(oEntry, 'Edge');
+        }
+
+        if(this.Wechat || this.Android && this.QQBrowser=='-1' && this.QQ){ // 判断安卓 QQ内置 或者 QQ浏览器  微信X5内核
+            if(this.Wechat && this.Android){
+                fun(oEntry,'AndroidWeChat');
+            }else if(this.WinWeChat ){
+                alert('电脑微信端');
+            }else {
+                fun(oEntry,'AndroidQQBrowser');
+            }
+        }else if(this.Android && this.QQ){
+            fun(oEntry,'AndroidQQ');
+        }
+
+        if(this.IPhone && this.Wechat){
+            fun(oEntry,'IosWeChat');
+        }
+
+        if(this.Weibo){
+            fun(oEntry,'WeiBo')
+        }
+
+        if(this.UCBrowser){
+            fun(oEntry,'UCBrowser');
+        }
+
+        if(this.IPhone && this.QQBrowser=='-1' && this.QQ ){ // iPhone QQ内置 或 QQ浏览器
+            fun(oEntry,'IosQQBrowser');
+        }else if(this.IPhone && this.QQ){
+            fun(oEntry,'IosQQ');
+        }
+    }
+```
+## 判断操作系统(实验性)
+```JavaScript
+    isOS() {
+        if (!!this.userAgent.match(/compatible/i) || this.userAgent.match(/Windows/i)) {
+            fun(osInput, 'windows');
+        } else if (!!this.userAgent.match(/Macintosh/i) || this.userAgent.match(/MacIntel/i)) { 
+            fun(osInput, 'macOS');
+        } else if (!!this.userAgent.match(/iphone/i) || this.userAgent.match(/Ipad/i)) {
+            fun(osInput, 'ios');
+        } else if (!!this.userAgent.match(/android/i)) {
+            fun(osInput, 'android');
+        } else {
+            fun(osInput, 'other');
+        }
+    }
+```
+## 判断电脑端和移动端
+```JavaScript
+    isMobile(){ //detection PC and Mobile
+        if(!!this.userAgent.match(/AppleWebKit.*Mobile.*/) && !!this.userAgent.match(/AppleWebKit/)){
+            document.writeln('Browser:'+'Mobile Browser'+'<hr>');
+        }else {
+            document.writeln('Browser:'+'Desktop Browser'+'<hr>');
+        }
+    }
+```
+
 
 
 
