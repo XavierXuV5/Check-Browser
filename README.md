@@ -22,5 +22,37 @@ navigator.userAgent;
 &emsp;&emsp;主要是从浏览器返回的信息来判断,详细的请看我的测试结果 [测试](./Browser-test.txt)。  
 # 思路
 
-&emsp;&emsp;首先，我用我要把各种要判断的浏览器的 __navigator.userAgent__ 拿到，再分析返回的字符串。
+&emsp;&emsp;首先，我用我要把各种要判断的浏览器的 __navigator.userAgent__ 拿到，再分析返回的字符串，写一个class把属性给存起来。
+```JavaScript
+class checkBrowser {
+    constructor() {
+        this.userAgent = navigator.userAgent;
+        this.Android = this.userAgent.indexOf('Android') > -1 || this.userAgent.indexOf('Linux') > -1;
+        this.IPhone = this.userAgent.indexOf("iPhone") != -1;
+        this.Ios = this.userAgent.indexOf('iPhone') > -1 || this.userAgent.indexOf('Mac') > -1;
+        this.Ipad = this.userAgent.indexOf('iPad') > -1;
+        this.Opera = this.userAgent.indexOf("Opera") > -1;
+        this.IE = this.userAgent.indexOf("compatible") > -1 && this.userAgent.indexOf('MSIE') > -1 && !this.Opera;
+        this.Edge = this.userAgent.indexOf("Edge") > -1;
+        this.FireFox = this.userAgent.indexOf('Firefox') > -1;
+        this.Safari = this.userAgent.indexOf('Safari') > -1 && this.userAgent.indexOf('Chrome') == -1;
+        this.Chrome = !this.Edge && this.userAgent.indexOf('Chrome') > -1 && this.userAgent.indexOf('Safari') > -1;
+        this.IE11 = this.userAgent.indexOf('Trident') > -1 && this.userAgent.indexOf('rv:11.0') > -1;
+        this.Wechat=!!this.userAgent.match(/MicroMessenger/i);
+        this.Weibo=!!this.userAgent.match(/Weibo/i);
+        this.UCBrowser=!!this.userAgent.match(/UCBrowser/i);
+        this.QQ=!!this.userAgent.match(/QQ/i);
+        this.QQBrowser=!this.userAgent.indexOf('MQQBrowser') > -1 && this.userAgent.indexOf('QQ/');
+    }
+}
+````
+
+
+
+
+
+
+
+
+
 
