@@ -6,7 +6,7 @@
 | ----------|:-------------:|:----------:|
 | Chrome    | QQ 			|  Ios			|          
 | Firefox   | QQ-Browser    |	Android		|
-| Safari	|  WeChat      |	Mac		|
+| Safari	|  WeChat      |	Mac OS		|
 | Ie11      | WeiBo 		|	Windows	|
 | Ie(6-10)  |  UC-Browser   	 |		|
 | Opera	 	|				 |			|
@@ -19,7 +19,7 @@ __据我测试到以上表格都可以判断，但不代表会出差错，如果
 ```JavaScript
 navigator.userAgent;  
 ```
-&emsp;&emsp;主要是从浏览器返回的信息来判断,详细的请看我的测试结果 [测试](./Browser-test.txt)。  
+&emsp;&emsp;主要是从浏览器返回的信息来判断,详细的请移步我的测试 [部分浏览器测试](./Browser-test.txt)。  
 # 思路
 
 &emsp;&emsp;首先，我用我要把各种要判断的浏览器的 __navigator.userAgent__ 拿到，再分析返回的字符串，写一个class把属性给存起来。
